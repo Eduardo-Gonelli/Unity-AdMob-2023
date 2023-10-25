@@ -7,7 +7,8 @@ using System;
 public class AdsRecompensado : MonoBehaviour
 {
     private RewardedAd rewardedAd;
-
+    string extraCoinsAdUnitId = "ca-app-pub-8101928037318977~1969403857";
+    string extraLifeAdUnitId = "";
 #if UNITY_ANDROID
     string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
